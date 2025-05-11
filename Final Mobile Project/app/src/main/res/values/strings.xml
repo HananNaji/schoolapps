@@ -19,5 +19,6 @@
     <string name="signUp_email">📧 Email</string>
     <string name="signUp_username">Username</string>
     <string name="signUpBtn">CREATE ACCOUNT</string>
+    <string name="signup_page">SignUp_page👋</string>
 
 </resources>

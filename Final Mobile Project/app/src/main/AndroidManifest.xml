@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <application
+        android:usesCleartextTraffic="true"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -12,6 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FinalMobileProject"
         tools:targetApi="31">
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -25,7 +27,12 @@
         <activity android:name=".LoginActivity"></activity>
 
         <activity android:name=".SignUpActivity"></activity>
+        <activity android:name=".RegisterActivity" ></activity>
+
+        <activity android:name=".StudentActivity" ></activity>
+        <activity android:name=".TeacherActivity" ></activity>
 
     </application>
+    <uses-permission android:name="android.permission.INTERNET" />
 
 </manifest>

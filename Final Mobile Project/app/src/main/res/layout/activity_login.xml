@@ -23,7 +23,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/login_page"
-        style="@style/TextStyle"
+
         android:textSize="24sp"
         android:textColor="@color/blue2"
         android:layout_marginTop="20dp"
@@ -36,12 +36,14 @@
         android:id="@+id/emailInput"
         android:layout_width="320dp"
         android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         android:hint="@string/email_or_username"
         style="@style/EditTextStyle"
         app:layout_constraintTop_toBottomOf="@id/welcomeText"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="20dp" />
+
+        />
 
     <EditText
         android:id="@+id/passwordInput"
